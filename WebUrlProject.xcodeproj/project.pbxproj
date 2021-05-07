@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61566D5F25381D4D00E4648F /* JiaoHuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61566D5E25381D4D00E4648F /* JiaoHuView.m */; };
+		616939B4253684CF00995C11 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 616939B3253684CF00995C11 /* SceneDelegate.m */; };
+		616939B725368FB700995C11 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 616939B625368FB700995C11 /* WebViewController.m */; };
 		618E30742535B093000D5109 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 618E30732535B093000D5109 /* AppDelegate.m */; };
-		618E30772535B093000D5109 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 618E30762535B093000D5109 /* SceneDelegate.m */; };
 		618E307A2535B093000D5109 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 618E30792535B093000D5109 /* ViewController.m */; };
 		618E307D2535B093000D5109 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 618E307B2535B093000D5109 /* Main.storyboard */; };
 		618E307F2535B094000D5109 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 618E307E2535B094000D5109 /* Assets.xcassets */; };
@@ -28,11 +30,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		618E306F2535B093000D5109 /* WebUrlProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebUrlProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61566D5D25381D4D00E4648F /* JiaoHuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JiaoHuView.h; sourceTree = "<group>"; };
+		61566D5E25381D4D00E4648F /* JiaoHuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JiaoHuView.m; sourceTree = "<group>"; };
+		616939B2253684CF00995C11 /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		616939B3253684CF00995C11 /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		616939B525368FB700995C11 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		616939B625368FB700995C11 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		618E306F2535B093000D5109 /* 跨平台演示.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "跨平台演示.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		618E30722535B093000D5109 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		618E30732535B093000D5109 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		618E30752535B093000D5109 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		618E30762535B093000D5109 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		618E30782535B093000D5109 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		618E30792535B093000D5109 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		618E307C2535B093000D5109 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -75,7 +81,7 @@
 		618E30702535B093000D5109 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				618E306F2535B093000D5109 /* WebUrlProject.app */,
+				618E306F2535B093000D5109 /* 跨平台演示.app */,
 				618E308A2535B094000D5109 /* WebUrlProjectUITests.xctest */,
 			);
 			name = Products;
@@ -84,12 +90,16 @@
 		618E30712535B093000D5109 /* WebUrlProject */ = {
 			isa = PBXGroup;
 			children = (
+				616939B2253684CF00995C11 /* SceneDelegate.h */,
+				616939B3253684CF00995C11 /* SceneDelegate.m */,
 				618E30722535B093000D5109 /* AppDelegate.h */,
 				618E30732535B093000D5109 /* AppDelegate.m */,
-				618E30752535B093000D5109 /* SceneDelegate.h */,
-				618E30762535B093000D5109 /* SceneDelegate.m */,
 				618E30782535B093000D5109 /* ViewController.h */,
 				618E30792535B093000D5109 /* ViewController.m */,
+				616939B525368FB700995C11 /* WebViewController.h */,
+				616939B625368FB700995C11 /* WebViewController.m */,
+				61566D5D25381D4D00E4648F /* JiaoHuView.h */,
+				61566D5E25381D4D00E4648F /* JiaoHuView.m */,
 				618E307B2535B093000D5109 /* Main.storyboard */,
 				618E307E2535B094000D5109 /* Assets.xcassets */,
 				618E30802535B094000D5109 /* LaunchScreen.storyboard */,
@@ -125,7 +135,7 @@
 			);
 			name = WebUrlProject;
 			productName = WebUrlProject;
-			productReference = 618E306F2535B093000D5109 /* WebUrlProject.app */;
+			productReference = 618E306F2535B093000D5109 /* 跨平台演示.app */;
 			productType = "com.apple.product-type.application";
 		};
 		618E30892535B094000D5109 /* WebUrlProjectUITests */ = {
@@ -209,9 +219,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				618E307A2535B093000D5109 /* ViewController.m in Sources */,
+				616939B725368FB700995C11 /* WebViewController.m in Sources */,
 				618E30742535B093000D5109 /* AppDelegate.m in Sources */,
 				618E30852535B094000D5109 /* main.m in Sources */,
-				618E30772535B093000D5109 /* SceneDelegate.m in Sources */,
+				61566D5F25381D4D00E4648F /* JiaoHuView.m in Sources */,
+				616939B4253684CF00995C11 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,15 +380,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N4D937Q79X;
+				DEVELOPMENT_TEAM = ZMKYUN642F;
 				INFOPLIST_FILE = WebUrlProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.wen.WebUrlProject;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_BUNDLE_IDENTIFIER = net.yuhui.WebUrlApp;
+				PRODUCT_NAME = "跨平台演示";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -385,15 +398,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N4D937Q79X;
+				DEVELOPMENT_TEAM = ZMKYUN642F;
 				INFOPLIST_FILE = WebUrlProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.wen.WebUrlProject;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_BUNDLE_IDENTIFIER = net.yuhui.WebUrlApp;
+				PRODUCT_NAME = "跨平台演示";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
